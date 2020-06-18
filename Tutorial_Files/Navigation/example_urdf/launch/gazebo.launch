@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<launch>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find example_urdf)/worlds/house.world" />
+    <arg name="paused" value="false" />
+    <arg name="use_sim_time" value="true" />
+    <arg name="gui" value="true" />
+    <arg name="headless" value="false" />
+    <arg name="debug" value="false" />
+  </include>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="false" />
+  </node>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find example_urdf)/urdf/example_urdf.urdf.xacro'" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x 0 -y 0 -z 0  -model example_urdf -param robot_description" />
+
+  <include file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch" />
+</launch>

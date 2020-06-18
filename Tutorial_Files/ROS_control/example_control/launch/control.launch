@@ -1,0 +1,7 @@
+<launch>
+  <rosparam file="$(find example_control)/config/config.yaml" command="load" ns="example_urdf" />
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/example_urdf" args="arm_controller" />
+  <node name="robot_arm_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+    <remap from="/joint_states" to="/example_urdf/joint_states" />
+  </node>
+</launch>

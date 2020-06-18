@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: example_urdf
+    relative_path: urdf/example_urdf.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/example_urdf.srdf
+  CONFIG:
+    author_name: hussam_ayoub
+    author_email: h.ayoub@student.fontys.nl
+    generated_timestamp: 1590498089

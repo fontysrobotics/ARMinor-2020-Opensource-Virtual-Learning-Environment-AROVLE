@@ -1,0 +1,11 @@
+controller_list:
+  - name: example_urdf/arm_controller
+    action_ns: "follow_joint_trajectory"
+    type: FollowJointTrajectory
+    joints:
+      - jarmLink0
+      - jarmLink1
+      - jarmLink2
+      - jarmLink3
+      - jarmLink4
+      - jarmLink5

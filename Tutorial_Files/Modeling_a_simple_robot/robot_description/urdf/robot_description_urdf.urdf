@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- First Link -->
+    <link name="base_footprint">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="collision">
+            <geometry>
+                <cylinder length="1" radius="0.1" />
+            </geometry>
+        </collision>
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <geometry>
+                <cylinder length="1" radius="0.1" />
+            </geometry>
+        </visual>
+    </link>
+    <!-- Second Link -->
+    <link name="second_link">
+
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="collision">
+            <geometry>
+                <cylinder length="1" radius="0.1" />
+            </geometry>
+        </collision>
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0.5" />
+            <geometry>
+                <cylinder length="1" radius="0.1" />
+            </geometry>
+        </visual>
+    </link>
+        <!-- similar to base_footprint link -->
+    
+    <!-- Joint -->
+    <joint name="joint1" type="continuous">
+        <origin xyz="0 0 0.5" rpy="0 0 0" />
+        <parent link="base_footprint" />
+        <child link="second_link" />
+    </joint>
+</robot>

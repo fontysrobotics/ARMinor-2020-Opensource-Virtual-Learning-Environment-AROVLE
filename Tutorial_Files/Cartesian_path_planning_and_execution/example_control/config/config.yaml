@@ -1,0 +1,15 @@
+example_urdf:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+arm_controller:
+  type: velocity_controllers/JointTrajectoryController
+  joints: [jarmLink0, jarmLink1, jarmLink2, jarmLink3, jarmLink4, jarmLink5]
+  gains:
+      jarmLink0: {p: 10,  d: 0.1, i: 0.1, i_clamp: 1}
+      jarmLink1: {p: 10,  d: 0.1, i: 0.1, i_clamp: 1}
+      jarmLink2: {p: 10,  d: 0.1, i: 0.1, i_clamp: 1}
+      jarmLink3: {p: 10,  d: 0.1, i: 0.1, i_clamp: 1}
+      jarmLink4: {p: 10,  d: 0.1, i: 0.1, i_clamp: 1}
+      jarmLink5: {p: 10,  d: 0.1, i: 0.1, i_clamp: 1}
+  allow_partial_joints_goal: true
