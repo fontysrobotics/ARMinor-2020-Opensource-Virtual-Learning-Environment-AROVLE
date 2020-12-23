@@ -2,7 +2,7 @@
 <package format="2">
   <name>example_control</name>
   <version>0.0.0</version>
-  <description>The example_control package</description>
+  <description>The configuration and launch files of a controller_manager ROS package</description>
   <maintainer email="fontysrobotics@fontys.nl">fontys_robotics</maintainer>
   <license>BSD</license>
 
