@@ -1,11 +1,15 @@
 # ARMinor-2020
 ## Opensource-Virtual-Learning-Environment-AROVLE
 
+
+__________________________________________________________________________________________________________________________________________________________________
 ### Intro:
 This repository includes the tutorial files and ROS packages created as a part of the opensource virtual learning envrironment project at fontys university - adaptive robotics minor.
 
 The project aims to make a set of tutorials for the simulation of robotics in ROS, that can be utilised through a cloud-based computing platform which will allow students and robotics enthusiasts around the world with limited hardware to run their simulations and start their journy in the robotics field.
 
+
+__________________________________________________________________________________________________________________________________________________________________
 ### Tutorials list:
 
 #### Introduction to ubuntu: 
@@ -45,7 +49,7 @@ integrate a matlab generated code for a motor pid controller with ROS, using a s
 
 
 
-__________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________
 For more information or to start following the tutorials please visit our git Wiki:
 
 https://github.com/fontysrobotics/ARMinor-2020-Opensource-Virtual-Learning-Environment-AROVLE/wiki
