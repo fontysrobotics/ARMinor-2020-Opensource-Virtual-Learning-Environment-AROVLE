@@ -31,6 +31,8 @@ Tutorials list:
 
 
 
+startup tutorial packages can be found in the tutorial_files directory.
+
 the video tutorials can be found in the link below: 
 
 https://youtube.com/playlist?list=PLamjfcg4QpYQZbtbuJID6J8oNES9bjOil
