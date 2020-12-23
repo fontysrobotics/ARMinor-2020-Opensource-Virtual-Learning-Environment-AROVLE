@@ -38,3 +38,7 @@ the video tutorials can be found in the link below:
 https://youtube.com/playlist?list=PLamjfcg4QpYQZbtbuJID6J8oNES9bjOil
 
 
+Text tutorials can be fount in the link below:
+
+https://github.com/fontysrobotics/ARMinor-2020-Opensource-Virtual-Learning-Environment-AROVLE/wiki
+
