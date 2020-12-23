@@ -7,27 +7,38 @@ The project aims to make a set of tutorials for the simulation of robotics in RO
 
 Tutorials list:
 
-* Introduction to ubuntu: a quick tour over ubuntu OS, basic commands and shortcuts.
+* Introduction to ubuntu: 
+a quick tour over ubuntu OS, basic commands and shortcuts.
 
-* Introduction to ROS: installation and ROS environment configuration, basic ROS commands, and most used packages.
+* Introduction to ROS: 
+installation and ROS environment configuration, basic ROS commands, and most used packages.
 
-* Introduction to Gazebo: a tour of ROS's simulation envronment.
+* Introduction to Gazebo: 
+a tour of ROS's simulation envronment.
 
-* Modeling a simple Robot: Creating a robot description package of a 2 link manipulator, demonstrates URDF and launch files.
+* Modeling a simple Robot: 
+Creating a robot description package of a 2 link manipulator, demonstrates URDF and launch files.
 
-* Creating a Heterogeneous robot: using a solidworks generated robot description package, Gazebo plugins, Gazebo world files, visualizing data in Rviz.
+* Creating a Heterogeneous robot: 
+using a solidworks generated robot description package, Gazebo plugins, Gazebo world files, visualizing data in Rviz.
 
-* Mapping: creating a mapping package and mapping the environment with slam-gmapping, using the robot created in previous tutorials.
+* Mapping: 
+creating a mapping package and mapping the environment with slam-gmapping, using the robot created in previous tutorials.
 
-* Navigation: introduction to ROS navigation stack, global and local planners, configuration files, launch files, and tunning the planners parameters.
+* Navigation: 
+introduction to ROS navigation stack, global and local planners, configuration files, launch files, and tunning the planners parameters.
 
-* ROS control: understing ROS control & gazebo transmissions, gazebo Ros_control plugin, creating a ROS control package which will be used in the future tutorials    with moveit.
+* ROS control: 
+understing ROS control & gazebo transmissions, gazebo Ros_control plugin, creating a ROS control package which will be used in the future tutorials    with moveit.
 
-* Manipulator control using moveit: graphical motion planning using moveit, the setup assistant, moveit and gazebo integration.
+* Manipulator control using moveit: 
+graphical motion planning using moveit, the setup assistant, moveit and gazebo integration.
 
-* Cartesian path planning in moveit: the use of RvizVisulTools, and MoveGroupInterface Api in c++. 
+* Cartesian path planning in moveit: 
+the use of RvizVisulTools, and MoveGroupInterface Api in c++. 
 
-* Matlab and ROS integration: integrate a matlab generated code for a motor pid controller with ROS, using a simple two link robot for visualization in Rviz.
+* Matlab and ROS integration: 
+integrate a matlab generated code for a motor pid controller with ROS, using a simple two link robot for visualization in Rviz.
 
 
 
