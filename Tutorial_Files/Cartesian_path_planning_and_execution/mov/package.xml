@@ -2,7 +2,7 @@
 <package format="2">
   <name>mov</name>
   <version>0.0.0</version>
-  <description>The mov package</description>
+  <description>This package is a c++ implementation of MoveGroupInterface and RvisVisualTools api</description>
 
   <maintainer email="fontysrobotics@fontys.nl">fontys robotics</maintainer>
 
