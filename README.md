@@ -44,12 +44,6 @@ integrate a matlab generated code for a motor pid controller with ROS, using a s
 
 startup tutorial packages can be found in the tutorial_files directory.
 
-the video tutorials can be found in the link below: 
-
-https://youtube.com/playlist?list=PLamjfcg4QpYQZbtbuJID6J8oNES9bjOil
-
-
-Text tutorials can be fount in the link below:
-
+For more informatino of to start following the tutorials please visit our git Wiki:
 https://github.com/fontysrobotics/ARMinor-2020-Opensource-Virtual-Learning-Environment-AROVLE/wiki
 
