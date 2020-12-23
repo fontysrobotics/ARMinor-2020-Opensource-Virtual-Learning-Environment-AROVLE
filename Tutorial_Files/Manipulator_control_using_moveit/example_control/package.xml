@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>The example_control package</description>
   <maintainer email="fontysrobotics@fontys.nl">fontys_robotics</maintainer>
-  <license>TODO</license>
+  <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>controller_manager</build_depend>
