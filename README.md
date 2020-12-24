@@ -9,7 +9,7 @@ This repository includes the tutorial files and ROS packages created as a part o
 The project aims to make a set of tutorials for the simulation of robotics in ROS, that can be utilised through a cloud-based computing platform which will allow students and robotics enthusiasts around the world with limited hardware to run their simulations and start their journy in the robotics field.
 
 
-This project is one of the deliverables of the ROSIN EP FREROS project. It was developed for the Adaptive Robotics minor of Fontys University of Applied Sciences which aims to be one of the best ROS and Robotics education center's in the Netherlands.
+**This project is one of the deliverables of the [ROSIN EP FREROS project](https://www.rosin-project.eu/ftp/freros). It was developed for the Adaptive Robotics minor of Fontys University of Applied Sciences which aims to be one of the best ROS and Robotics education center's in the Netherlands.**
 
 __________________________________________________________________________________________________________________________________________________________________
 ### Tutorials list:
